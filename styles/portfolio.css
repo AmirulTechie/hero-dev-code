@@ -21,6 +21,20 @@ body{
     cursor: pointer;
 
 }
+.sectionHeading{
+    max-width: 827px;
+    text-align: center;
+}
+.sectionHeading h2{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.sectionHeading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
 /* Main style */
 header{
     background-color: #FFF8F3;
@@ -88,4 +102,31 @@ nav .navMenu a{
 #banner .bannerImage img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+#about{
+    padding-top: 130px;
+}
+#about .aboutContainer{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background: #FFF8F3;
+    padding: 131px 156px;
+}
+
+#about .aboutContainer .aboutInfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutInfo .infoCard p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.aboutInfo .infoCard h4{
+    font-size: 20px;
 }
